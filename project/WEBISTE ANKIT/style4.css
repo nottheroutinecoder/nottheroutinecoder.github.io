@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0;
+}
+header{
+	background-image: url(tybsc.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+
+}
+.main-nav
+{
+	padding-top: 20px;
+	float:right;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size :15px ;
+}
+.main-nav li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size :15px ;
+}
+.main-nav li.active a
+{
+ border: 1px solid white;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+	background-color: darkorange;
+}
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+body
+{
+	font-family: monospace;
+}
+.row
+{
+	max-width: 1300px;
+	margin:auto;
+}
+.second-nav
+{
+	padding-top:470px;
+	float: left;
+	margin-left:-130px;
+}
+.second-nav li
+{
+	display: inline-block;
+}
+.second-nav li a
+{
+	color:white;
+	text-decoration: none;
+	padding:10px 10px;
+	font-family:"Roboto",sans-serif;
+	font-size :10px ;
+}
+.second-nav li.active a
+{
+ border: 1px solid white;
+}
+.second-nav a:hover
+{
+	border: 1px solid white;
+	color: white;
+	background-color: darkorange;
+}
